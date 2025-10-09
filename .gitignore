@@ -1,0 +1,11 @@
+.obsidian/plugins/
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/snippets/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
