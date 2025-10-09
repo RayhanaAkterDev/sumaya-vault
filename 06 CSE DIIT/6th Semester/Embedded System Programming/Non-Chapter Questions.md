@@ -1,0 +1,8 @@
+- With the aid of a block diagram, describe the Von-Neumann machine structure. #board_2021 
+- Explain machine language with example. #board_2021 
+- *Describe micro flowchart for ADD instruction step by step.* #board_2021 #board_2022 
+- Explain child window creation and child window activation. #board_2021 
+- Explain frame, client and child windows in details. #board_2020 
+- Define Internet programming. #board_2020 
+- What is OS? Write down the functions of OS. #board_2020 
+- Discuss about the architecture of 8051 micro controller. #board_2020 

@@ -1,0 +1,58 @@
+{
+  "editorPosition": "mainView",
+  "attachShortcutToGlobalWindow": false,
+  "globalNamespace": "MF",
+  "formDefinitions": [
+    {
+      "title": "Today's Medicine Log",
+      "name": "medicine-record",
+      "fields": [
+        {
+          "name": "Thyrox-50",
+          "label": "",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "toggle",
+            "hidden": false
+          }
+        },
+        {
+          "name": "Xinc-B",
+          "label": "Xinc-B",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "multiselect",
+            "source": "fixed",
+            "multi_select_options": [
+              "Taken after breakfast ✅",
+              "Not taken after breakfast 🛑",
+              "Taken after dinner ✅",
+              "Not taken after dinner 🛑"
+            ],
+            "allowUnknownValues": false
+          }
+        },
+        {
+          "name": "E-Cap",
+          "label": "",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "multiselect",
+            "source": "fixed",
+            "multi_select_options": [
+              "Taken after breakfast ✅",
+              "Not taken after breakfast 🛑",
+              "Taken after dinner ✅",
+              "Not taken after dinner 🛑"
+            ],
+            "allowUnknownValues": false
+          }
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}

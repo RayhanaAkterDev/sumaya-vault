@@ -1,0 +1,7 @@
+1. Define binary tree. How can we traverse a binary tree?  [2020]
+2. What do you mean by binary search tree and optimal binary search tree? [2020]
+3. Write down the BFS algorithm for traversing a graph. [2019]
+4. Write down the application of BFS and DFS algorithm. [2017]
+5. Write down the differences between BFS and DFS. [2018, 21, 20]
+6. Discuss different traversal techniques of binary tree. [2017]
+7. ‘Algorithm BFS visits all vertices reachable from V’ - Explain it. [2017]

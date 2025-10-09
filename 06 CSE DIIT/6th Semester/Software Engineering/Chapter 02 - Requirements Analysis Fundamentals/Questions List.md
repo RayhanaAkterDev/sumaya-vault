@@ -1,0 +1,14 @@
+- [ ] Define requirements engineering. #board_2018
+- [ ] What are the different types of user requirement process. #board_2017
+- [ ] What is the functional and non-functional requirement of software engineering (process)? - Explain. #board_2020 #board_2018
+- [ ] What are the difference between functional and non-functional requirements of SE. #board_2021 #board_2019 #board_2017
+- [ ] Distinguish between requirement definition and requirement specification. #board_2022
+- [ ] Define the term stakeholder and use case. #board_2022
+- [ ] Brief the stages / process activities of **requirement elicitation** and analysis with figure. #board_2022 
+- [ ] What is use case? #board_2018  Depict online food order system with use case diagram. #board_2020 
+- [ ] Depict the online flight reservation system using a use case diagram. #board_2018 
+- [ ] Draw a use a case diagram for virtual education management system. #board_2022 #board_2019 
+- [ ] Draw and explain a use-case diagram for an e-commerce system. #board_2017 
+- [ ] Mention some guidelines for conducting a collaborative requirement gathering meeting. #board_2022 
+- [ ] Explain different types of check factors carried out during requirement validation. #board_2022 
+- [ ] Write short note on class diagram. #board_2022 #board_2017 

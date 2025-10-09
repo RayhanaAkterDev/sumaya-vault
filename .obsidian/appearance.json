@@ -1,0 +1,17 @@
+{
+  "cssTheme": "Aura",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "View-mode",
+    "stylish-tasks",
+    "custom_CSS"
+  ],
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Inter",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true,
+  "showRibbon": true,
+  "nativeMenus": true,
+  "theme": "obsidian",
+  "showViewHeader": true
+}

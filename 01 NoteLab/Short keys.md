@@ -1,0 +1,3 @@
+- `alt+w` - Manage Workspace Layout
+- `alt+c` - Callout Manager
+- 

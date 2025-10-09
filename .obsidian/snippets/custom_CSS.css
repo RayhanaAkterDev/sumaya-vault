@@ -1,0 +1,56 @@
+.has-list-bullet {
+	margin-bottom: 16px !important;
+}
+
+.callout-content {
+	padding-bottom: 30px;
+}
+
+/* General DataviewJS Table Styling */
+.dataview table {
+	width: 100% !important;
+}
+
+.dataview thead th {
+	padding: 8px;
+	/* border: 1px solid var(--background-modifier-border) !important; */
+}
+
+.dataview tbody td {
+	/* min-width: 120px !important; */
+	/* padding: 6px 8px !important; */
+	border: 1px solid var(--background-modifier-border) !important;
+}
+
+.dataview a {
+	color: var(--interactive-accent) !important;
+	/* text-decoration: none !important; */
+}
+
+a.tag {
+	line-height: 2rem !important;
+	font-size: 10px !important;
+	font-weight: 600 !important;
+}
+
+.markdown-preview-view {
+	width: 100% !important;
+}
+
+.status-bar {
+	border-left: none;
+	border-radius: 0;
+	height: 46px;
+	/* width: 100% !important; */
+	width: 97% !important;
+	background-color: transparent !important;
+}
+
+.workspace > .workspace-leaf,
+.workspace > .workspace-split {
+	height: 94.2%;
+}
+
+.workspace-sidedock-vault-profile {
+	border: none !important;
+}

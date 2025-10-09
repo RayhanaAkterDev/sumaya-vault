@@ -1,0 +1,131 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 30,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2278275059",
+        "parentId": null,
+        "order": 0,
+        "color": "grey",
+        "name": "Inbox",
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6GcPwRHQ29r9pf8P",
+        "viewStyle": "list",
+        "description": "",
+        "commentCount": 0
+      },
+      {
+        "id": "2346692676",
+        "parentId": null,
+        "order": 1,
+        "color": "teal",
+        "name": "Code",
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6X4h4qWjpXRg25fv",
+        "viewStyle": "board",
+        "description": "",
+        "commentCount": 0
+      },
+      {
+        "id": "2346692679",
+        "parentId": null,
+        "order": 2,
+        "color": "salmon",
+        "name": "Study",
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6X4h4rqc82Rp9wJP",
+        "viewStyle": "list",
+        "description": "",
+        "commentCount": 0
+      },
+      {
+        "id": "2346692682",
+        "parentId": null,
+        "order": 3,
+        "color": "grape",
+        "name": "Life",
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6X4h4vh7P2HXmm4W",
+        "viewStyle": "list",
+        "description": "",
+        "commentCount": 1
+      }
+    ],
+    "tasks": [
+      {
+        "id": "9538602121",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2278275059",
+        "sectionId": null,
+        "parentId": null,
+        "order": 4,
+        "content": "Plan next day",
+        "description": "[02 Journal/Daily_Notes/2025-09-13.md](obsidian://open?vault=Sumaya's%20Vault&file=02%20Journal/Daily_Notes/2025-09-13.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "36509393",
+        "createdAt": "2025-09-13T03:44:06.522771Z",
+        "due": null,
+        "url": "https://app.todoist.com/app/task/9538602121",
+        "duration": null,
+        "deadline": null,
+        "path": "02 Journal/Daily_Notes/2025-09-13.md"
+      }
+    ],
+    "events": [
+      {
+        "event_date": "2025-09-13T03:45:05.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "Plan next day",
+          "last_content": "plan ur next day",
+          "note_count": 0
+        },
+        "extra_data_id": 29367210669,
+        "id": 29280864328,
+        "initiator_id": null,
+        "object_id": "9538602121",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2278275059",
+        "source": "mysql",
+        "v2_object_id": "6crH8mXjQp48FhcP",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6GcPwRHQ29r9pf8P"
+      }
+    ]
+  },
+  "fileMetadata": {
+    "02 Journal/Daily_Notes/2025-09-13.md": {
+      "todoistTasks": [
+        "9538602121"
+      ],
+      "todoistCount": 1
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "89db67909eeaad6e2a7829ef7169ab64cddfe280"
+}
