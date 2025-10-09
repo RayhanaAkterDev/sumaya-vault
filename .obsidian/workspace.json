@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "right": {
     "id": "8f112ace402a832e",
@@ -229,13 +228,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "575c1afb34416b0e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Demo.md",
+    "Homepage.md",
+    "Untitled.md",
+    "New Text Document.txt",
     "02 Journal/Daily_Notes/2025-10-08.md",
     "@Quotes/@Quotes.md",
     "@Quotes/visual quote.md",
     "12 Attachments/Pasted image 20251008100128.png",
-    "Homepage.md",
     "@Quotes/quote 01.md",
     "07 Coding Notes/07 Coding Notes.md",
     "@Quotes",
@@ -259,7 +261,6 @@
     "07 Coding Notes/Github/Github.md",
     "07 Coding Notes/Tailwind 4.0/04 Tailwind Tips & Tricks.md",
     "07 Coding Notes/Tailwind 4.0/03 Tailwind Component Libraries.md",
-    "06 CSE DIIT/6th Semester/Computer Network/Computer Network.md",
     "07 Coding Notes/Tailwind 4.0",
     "07 Coding Notes/Github",
     "12 Attachments/all the available tailwind directives name.png",
@@ -274,7 +275,6 @@
     "12 Attachments/Pasted image 20250920121114.png",
     "todoist-backup-202591385210.json",
     "todoist-backup-20259138723.json",
-    "16 DataViews",
-    "17 Software Lab Project/Project Progress"
+    "16 DataViews"
   ]
 }
