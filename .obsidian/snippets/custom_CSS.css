@@ -4,6 +4,35 @@
 
 .callout-content {
 	padding-bottom: 30px;
+	margin-top: -20px;
+	/* border-top: 1px solid rgb(65, 65, 94); */
+}
+
+h6 {
+	display: inline-block;
+	border-bottom: 1px solid rgb(65, 65, 94);
+	/* margin-bottom: -30px; */
+}
+
+h5,
+h4 {
+	border-bottom: 1px solid rgb(65, 65, 94);
+}
+
+h5 {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.el-hr > hr,
+.markdown-rendered hr {
+	border-color: rgb(65, 65, 94) !important;
+}
+
+.callout-title {
+	visibility: hidden;
+	margin-bottom: -10px;
+	/* display: none; */
 }
 
 /* General DataviewJS Table Styling */

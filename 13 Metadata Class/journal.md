@@ -13,7 +13,7 @@ fieldsOrder:
   - eNkIDw
   - lqUgOC
   - 22vbkk
-  - GqtWov
+  - bRRqOr
   - lvEAuo
   - wvqCeU
   - wkAuSK
@@ -21,7 +21,7 @@ fieldsOrder:
   - Sbedrr
   - gjwLpE
   - 9f5e3d
-version: "2.460"
+version: "2.465"
 fields:
   - name: dinner_by_8
     type: Boolean
@@ -124,11 +124,6 @@ fields:
         "5": pm 🛑
     path: ""
     id: wvqCeU
-  - name: Thyrox-50
-    type: Boolean
-    options: {}
-    path: ""
-    id: GqtWov
   - name: title
     type: Input
     options:
@@ -141,4 +136,13 @@ fields:
       displayTemplate: ""
     path: ""
     id: eNkIDw
+  - name: Thyrox-50
+    type: Select
+    options:
+      sourceType: ValuesList
+      valuesList:
+        "1": ✅
+        "2": 🛑
+    path: ""
+    id: bRRqOr
 ---
