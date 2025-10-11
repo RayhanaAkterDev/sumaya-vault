@@ -4,14 +4,11 @@
   "file-explorer-note-count",
   "homepage",
   "obsidian-languagetool-plugin",
-  "obsidian-meta-bind-plugin",
   "metadata-menu",
   "periodic-notes",
   "obsidian-style-settings",
   "templater-obsidian",
   "obsidian-day-planner",
-  "smart-connections",
-  "omnisearch",
   "obsidian-emoji-toolbar",
   "rainbow-colored-sidebar",
   "calendar",
@@ -21,5 +18,12 @@
   "todoist-sync-plugin",
   "code-styler",
   "obsidian-git",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "smart-connections",
+  "auto-card-link",
+  "data-cards",
+  "obsidian-meta-bind-plugin",
+  "buttons",
+  "reveal-active-file-button",
+  "obsidian-scroll-to-top-plugin"
 ]

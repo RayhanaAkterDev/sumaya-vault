@@ -3,15 +3,19 @@ Title: Homepage
 ---
 # Homepage
 
+_Welcome, Sumaya!_  
+📅 [[2025-10-01|2025-10-01]]  
 
->[!multi-column]
->
->> [!blank] 
->> _Welcome, Sumaya!_  
->> 📅 [[02 Journal/Daily_Notes/2025-10-01|2025-10-01]]  
->
->> [!blank]
->> `BUTTON[openvault]` `BUTTON[new_note]` 
+ `BUTTON[new_note]` 
+
+```button
+name Create Discovery Note
+type note(My New Note, tab) template
+action discovery_log
+color purple
+folder 19 Discovery Logs
+```
+^button-hkyn
 
  ```meta-bind-embed
  [[MetaBindEmbeds Spaces Buttons]]

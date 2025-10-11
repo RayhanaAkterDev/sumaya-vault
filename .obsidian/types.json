@@ -26,6 +26,7 @@
     "TQ_show_urgency": "checkbox",
     "study": "number",
     "sugar_intake": "checkbox",
-    "date": "date"
+    "date": "date",
+    "source": "text"
   }
 }

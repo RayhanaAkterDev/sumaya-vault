@@ -1,2 +1,3 @@
 
 "smart_sources:@Quotes/quote 01.md": {"path":"@Quotes/quote 01.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1t2th1n","at":1759893627964},"class_name":"SmartSource","last_import":{"mtime":1759893590062,"size":131,"at":1759893627966,"hash":"1t2th1n"},"blocks":{"#---frontmatter---":[1,6],"#":[7,11]},"outlinks":[],"metadata":{"title":"Quotes","class":"note","date":"2025-10-08 08:27 am","tags":["#quote"]},"task_lines":[]},
+"smart_sources:@Quotes/quote 01.md": null,

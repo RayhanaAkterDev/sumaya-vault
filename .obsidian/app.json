@@ -16,5 +16,6 @@
   "promptDelete": false,
   "defaultViewMode": "preview",
   "livePreview": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showUnsupportedFiles": false
 }
