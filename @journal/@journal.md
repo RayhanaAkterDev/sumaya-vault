@@ -1,5 +1,5 @@
 ---
-Title: Daily Note
+title: Journal Note
 ---
 [[+ About Journal ℹ️]]
 

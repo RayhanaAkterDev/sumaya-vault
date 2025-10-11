@@ -1,5 +1,5 @@
 ---
-Title: Vault Index
+title: Vault Index
 ---
 
 # 📁 Vault Index
@@ -11,5 +11,6 @@ list
 from ""
 where length(split(file.folder, "/")) = 1
   and contains(file.path, file.folder + "/" + file.folder + ".md")
+  or file.folder = "@index"
 sort file.name asc
 ```

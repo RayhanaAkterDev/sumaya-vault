@@ -1,5 +1,5 @@
 ---
-Title: Homepage
+title: Homepage
 ---
 # Homepage
 
@@ -8,12 +8,11 @@ _Welcome, Sumaya!_
 
 ```button
 name New note
-type note(My New Note, tab) template
+type command
+action Create new note
 color blue
-customColor #f1f1f1
-customTextColor #f1f0f0
 ```
-^button-cpds
+^button-balp
 
 ---
 
