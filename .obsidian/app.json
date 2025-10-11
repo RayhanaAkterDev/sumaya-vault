@@ -1,6 +1,6 @@
 {
   "newFileLocation": "current",
-  "attachmentFolderPath": "12 Attachments",
+  "attachmentFolderPath": "@uploads",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,
@@ -17,5 +17,6 @@
   "defaultViewMode": "preview",
   "livePreview": true,
   "readableLineLength": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "trashOption": "local"
 }
