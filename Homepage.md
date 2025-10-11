@@ -6,70 +6,67 @@ Title: Homepage
 _Welcome, Sumaya!_  
 📅 [[2025-10-01|2025-10-01]]  
 
- `BUTTON[new_note]` 
-
 ```button
-name Create Discovery Note
+name New note
 type note(My New Note, tab) template
-action discovery_log
-color purple
-folder 19 Discovery Logs
+color blue
+customColor #f1f1f1
+customTextColor #f1f0f0
 ```
-^button-hkyn
-
- ```meta-bind-embed
- [[MetaBindEmbeds Spaces Buttons]]
- ```
+^button-cpds
 
 ---
 
-**Calendar View:**
+##### Calendar View
 
 ```dataview
 CALENDAR date(file.name)
-FROM "02 Journal/Daily_Notes"
+FROM "@journal/@daily-notes"
 ```
 
 ---
 
 ## Goals & Progress
 
+ ##### Motto & Goals:
+
+- Academic Excellence [^1]
+- Personal & Spiritual Growth [^2]
+- Skill Development [^3]
+- Work Ethic [^4]
+ 
+ ##### Learning Progress:
+ 
+> **Current**: Phase 2 – JavaScript Core Concepts 
+
+- [[02 Coding Roadmap|See the full roadmap →]]
+- [[03 Select Niche|See your niche roadmap]]
+
+
+
+---
+
+## Quick Access
+
 > [!multi-column]
 > 
->> [!quote]+ ✨ Motto & Goals
->> - Academic Excellence [^1]
->> - Personal & Spiritual Growth [^2]
->> - Skill Development [^3]
->> - Work Ethic [^4]
+>> [!quote]+ 
+>> ##### Folder Notes
+>> ```dataview
+>> list
+>> from "/"
+>> where length(split(file.folder, "/")) = 1
+>> and file.name = regexreplace(file.folder, ".*/", "")
+>> or file.folder = ""
+>> sort file.name asc
+>> ```
 >
->> [!abstract] Learning Progress
->> **Current**: Phase 2 – JavaScript Core Concepts 
->> - [[02 Coding Roadmap|See the full roadmap →]]
->> - [[03 Select Niche|See your niche roadmap]]
-
----
-
-## Dataview Records
-
-> [!blank]
-> ```dataview
-> 	table from "16 DataViews"
-> 	where file.name != "16 DataViews"
->  ```
-
----
-
-## Folder Notes
-
-> [!note]+
-> ```dataview
-> list
-> from "/"
-> where length(split(file.folder, "/")) = 1
-> and file.name = regexreplace(file.folder, ".*/", "")
-> or file.folder = ""
-> sort file.name asc
-> ```
+>> [!abstract]+
+>> ##### Dataview Records
+>> ```dataview
+>> 	list from "@trailhead"
+>> 	where file.name != "@trailhead"
+>>```
 
 ---
 
@@ -77,9 +74,9 @@ FROM "02 Journal/Daily_Notes"
 
 > [!blank]
 > ```dataview
-> 	table from "06 CSE DIIT/5th Semester"
+> 	table from "@questhub/5th Semester"
 > 	where contains(file.folder, file.name)
-> 	  and length(split(file.folder, "/")) = length(split("06 CSE DIIT/5th Semester", "/")) + 1
+> 	  and length(split(file.folder, "/")) = length(split("@questhub/5th Semester", "/")) + 1
 >  ```
 
 [^1]: - Beat Rafi in Mid and External Finals  
