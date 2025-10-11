@@ -12,7 +12,7 @@ _A quick-access dashboard of your monthly, weekly, and daily journal entries._
 
 ```dataview
 CALENDAR date(file.name)
-FROM "@journal/Daily_Notes"
+FROM "@journal/@daily-notes"
 ```
 ---
 
@@ -20,7 +20,7 @@ FROM "@journal/Daily_Notes"
 
 ```dataview
 list
-FROM "@journal/Weekly_Journal"
+FROM "@journal/@weekly-notes"
 SORT file.ctime DESC
 ```
 
@@ -30,6 +30,6 @@ SORT file.ctime DESC
 
 ```dataview
 list
-FROM "@journal/Daily_Notes"
+FROM "@journal/@daily-notes"
 SORT file.name desc
 ```

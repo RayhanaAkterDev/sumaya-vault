@@ -15,8 +15,8 @@ title: Capture Vault
 
 ```datacards
 TABLE title, source, description
-FROM "Capture Vault"
-WHERE file.folder = "Capture Vault"
+FROM "@vault"
+WHERE file.folder = "@vault"
 AND file.name != "Capture Vault"
 
 // Settings
