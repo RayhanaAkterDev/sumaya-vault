@@ -1,2 +1,3 @@
 
 "smart_sources:@templates/05 Capture Template.md": {"path":"@templates/05 Capture Template.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1jzwzhc","at":1760206651548},"class_name":"SmartSource","last_import":{"mtime":1760160002912,"size":164,"at":1760206651549,"hash":"1jzwzhc"},"blocks":{"#---frontmatter---":[1,7],"#":[9,10],"######_Source:_":[11,18],"######_Source:_#{1}":[13,18],"###{{title}}":[19,19]},"outlinks":[{"title":"Discovery Logs","target":"19 Discovery Logs","line":9}],"metadata":{"class":"note","title":null,"date":null,"source":null,"description":null},"task_lines":[]},
+"smart_sources:@templates/05 Capture Template.md": null,

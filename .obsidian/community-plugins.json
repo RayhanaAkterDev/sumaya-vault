@@ -24,5 +24,7 @@
   "obsidian-meta-bind-plugin",
   "buttons",
   "reveal-active-file-button",
-  "obsidian-scroll-to-top-plugin"
+  "obsidian-scroll-to-top-plugin",
+  "date-inserter",
+  "obsidian-tasks-plugin"
 ]

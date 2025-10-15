@@ -1,26 +1,18 @@
 ---
 class: journal
-title: Weekly Schedule
-aliases:
-  - weekly note
-important_links:
+title: Weekly Note
 ---
 
 # Weekly Schedule
 
-> [!multi-column]
+> [!info]
+> ##### 🗓️ Timeline: <% moment(tp.file.title, "gggg-[W]ww").startOf('isoWeek').add(6, 'days').format("MMM DD") %> - <% moment(tp.file.title, "gggg-[W]ww").startOf('isoWeek').add(12, 'days').format("MMM DD") %>
+> [[@journal/@weekly-notes/<%moment(tp.file.title, "gggg-[W]ww").subtract(1,'week').format("gggg-[W]ww")%>|↺ Previous Week]] | [[@journal/@weekly-notes/<%moment(tp.file.title, "gggg-[W]ww").add(1,'week').format("gggg-[W]ww")%>|Next Week ↻]]
 > 
->> [!info]
->> ##### 🗓️ Timeline: <% moment(tp.file.title, "gggg-[W]ww").startOf('isoWeek').add(6, 'days').format("MMM DD") %> - <% moment(tp.file.title, "gggg-[W]ww").startOf('isoWeek').add(12, 'days').format("MMM DD") %>
->> [[02 Journal/Weekly_Journal/<%moment(tp.file.title, "gggg-[W]ww").subtract(1,'week').format("gggg-[W]ww")%>|↺ Previous Week]] | [[02 Journal/Weekly_Journal/<%moment(tp.file.title, "gggg-[W]ww").add(1,'week').format("gggg-[W]ww")%>|Next Week ↻]]
->
->> [!tip] Quick Buttons
->> `BUTTON[quick_note]` 
->>  `BUTTON[edit_weekly_temp]` 
-
- ```meta-bind-embed
- [[MetaBindEmbeds Spaces Buttons]]
- ```
+> `BUTTON[edit_weekly_temp]` 
+```meta-bind-embed
+[[MetaBindEmbeds Spaces Buttons]]
+```
 
 ---
 
@@ -28,42 +20,66 @@ important_links:
 
 _A list of key objectives to focus on this week, guiding your priorities and progress._
 
-1. _add goal_
+### 🎯 Primary (Most Important This Week)
+
+1. _add primary goals_
+
+### 🌱 Secondary (Supporting Goals)
+
+1. _add secondary goals_
 
 ---
 
-### Daily Log 
+## 🧾 Weekly Tasks Overview
+
+> [!todo]
+> ```todoist
+> name: "View tasks:"
+> filter: "##Goals & @weekly tasks"
+> autorefresh: 30
+> sorting:
+>   - priority
+> ```
+
+---
+
+## 🗓️ Daily Logs 
 
 A quick reference to each day’s journal note for the week, helping track daily activities and reflections.
 
-| Day       | Note                                                                                                                    |
-| --------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Sunday    | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(0,'days').format("YYYY-MM-DD") %>]]  |
-| Monday    | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(1,'days').format("YYYY-MM-DD") %>]]  |
-| Tuesday   | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(2,'days').format("YYYY-MM-DD") %>]]  |
-| Wednesday | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(3,'days').format("YYYY-MM-DD") %>]]  |
-| Thursday  | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(4,'days').format("YYYY-MM-DD") %>]]  |
-| Friday    | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(5,'days').format("YYYY-MM-DD") %>]]  |
-| Saturday  | [[02 Journal/Daily_Notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(6,'days').format("YYYY-MM-DD") %>]]  |
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(0,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(0,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(1,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(1,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(2,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(2,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(3,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(3,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(4,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(4,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(5,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(5,'days').format("YYYY-MM-DD") %>]]
+- [[@journal/@daily-notes/<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(6,'days').format("YYYY-MM-DD") %>|<% moment(tp.file.title,"gggg-[W]ww").startOf('week').add(6,'days').format("YYYY-MM-DD") %>]]
 
 ---
 
-### Calendar Overview
 
-```dataview
-CALENDAR date(file.name)
-FROM "02 Journal/Daily_Notes"
-```
+## 🧾 Weekly Summary
+
+| Base | Goal / Task | Progress | Key Takeaway |
+|------|------|-----------|--------------|
+| Code |   |  |  |
+| Study | 5th Semester |  |  |
+| Healthy Routine | |  | |
+
 
 ---
 
-## Weekly Reflection
+## 🔄 Next Week Focus
 
-- 🌟 Highlights of the Week
-- ⚡ Challenges Faced
-- 📌 Lessons Learned  
+- Start another `tailwind` project.
+- Continuing leading healthy-life.
 
-### Gratitude
+---
 
-- Things I’m grateful for this week:  
+## ✅ Weekly Review Checklist
 
+- [ ] Reviewed completed & pending tasks  
+- [ ] Updated Todoist projects  
+- [ ] Planned next week’s MITs  
+- [ ] Reflected & wrote gratitude notes  
+- [ ] Scheduled next week’s focus blocks 

@@ -1,3 +1,5 @@
 {
-  "folder": "@Random"
+  "folder": "@u-capture",
+  "template": "",
+  "format": "YYYY-MM-DD hh.mm a"
 }

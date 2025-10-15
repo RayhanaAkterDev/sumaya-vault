@@ -1,5 +1,6 @@
 ---
 title: Journal Note
+class: journal
 ---
 [[+ About Journal ℹ️]]
 

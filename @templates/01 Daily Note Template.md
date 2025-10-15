@@ -20,105 +20,78 @@ code_topics:
     items:
       - item
       - item
-drink_record:
+skin_care:
+hair_care: 
 Thyrox-50:
 Xinc-B:
 E-Cap:
 ---
 
-# <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD . dddd") %>
+# <% moment(tp.file.title, "YYYY-MM-DD").format("ddd MMM DD YYYY") %>
 
-##### 📅 Week No. [[02 Journal/Weekly_Journal/<%moment(tp.file.title).format("gggg-[W]ww")%>|<%moment(tp.file.title).format("gggg-[W]ww")%>]]  
+> [!info]
+> ##### 📅 Week No. [[@journal/@weekly-notes/<%moment(tp.file.title).format("gggg-[W]ww")%>|<%moment(tp.file.title).format("gggg-[W]ww")%>]]  
+> [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").subtract(1, "days").format("YYYY-MM-DD") %> | Yesterday ⏪ ]] | [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").add(1, "days").format("YYYY-MM-DD") %> | ⏩ Next day ]]
+> 
+> `BUTTON[edit_daily_temp]`
 
-[[02 Journal/Daily_Notes/<% moment(tp.file.title, "YYYY-MM-DD").subtract(1, "days").format("YYYY-MM-DD") %>| Yesterday ⏪]] |  [[02 Journal/Daily_Notes/<% moment(tp.file.title, "YYYY-MM-DD").add(1, "days").format("YYYY-MM-DD") %>|⏩ Next day ]]
- 
- `BUTTON[edit_daily_temp]`
-
----
-
-## Journal Overview
-
-- [[#⚔️ Disciplined Tasks]]
-	- [[#🎯 Bonus Challenge]]
-	- [[#Reward / Punishments]]
-- [[#☀️ Wellness & Lifestyle]]
-- [[#🎓 Academic & Coding Focus]]
-	- [[#📌 Notes & Reminders]]
-- [[#📊 Journal Insights]]
-- [[#💭 Review & Reflection]]
-	- [[#🔖 Footnotes]]
+```meta-bind-embed
+[[MetaBindEmbeds Spaces Buttons]]
+```
 
 ---
 
-## ⚔️ Disciplined Tasks
+## Daily Goals
 
-- 11:15 am - 01:00 pm
-    ##### name-session
-	- [ ] _add tasks_
-- 07:00 pm - 08:30 pm
-    ##### Coding Session #code
-	- Project `tea-house` #project
-		- [ ] _add tasks_
-- 09:00 pm - 10:00 pm
-    ##### Chores & Prayer
-	- [ ] Make roti
-	- [ ] Isha salat
-- 10:30 pm - 11:30 pm
-    ##### Wrap-Up Tasks
-	- [ ] Create a post on `tailwind leading` #LinkedIn
-	- [ ] Review 5 posts #facebook
-	- [ ] Plan next day
+_Define true outcome of the day:_
+
+1. 
 
 ---
 
-### 🎯 Bonus Challenge
-
-- **Avoid** — fast food / packet food / sugary / sweets / soft drinks
-- **Do**  — exercise, hair care, skin care
-
-> _Complete every single task and challenge.  
-> Miss any and face the penalty — finish all to earn your reward._
-
----
-
-#### 🎁 Reward & ⚖️ Punishment
-
-- **Reward:** 1-hour guilt-free mobile time📱
-- **Punishment:** 100 [air squat](https://www.youtube.com/watch?si=tZ6hKg_MyzGQlV5O\&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2F\&source_ve_path=Mjg2NjMsMjg2NjQsMTY0NTA2\&v=i8oGQ03wqZc\&feature=youtu.be) 🏋️‍♀️
-
----
-
-## ☀️ Wellness & Lifestyle
-
-> [!abstract]
-> ##### 🌿 Daily Wellness Routine
-> - _@salat_ [^1]
-> - _@diet_ [^2]
-> - _@medicine_ [^3]
-> - _@exercise_ [^4]
-> - _@chores_ [^5]
-> ---
-> - _@skin_care_ [^6]
-> 	- skin_care::
-> ---
-> - _@hair_care_ [^7]
-> 	- hair_care::
-
----
-
-## 🎓 Academic & Coding Focus
+## Tasks Overview
 
 > [!multi-column]
 > 
->> [!abstract]
->> #### 📘 _Study Overview_
->> - _@6th-sem-lab_
->> - _@5th-sem-retake_
->> - _@7th-sem-current_  
->> 
->> ###### See details of your daily study topics:
+>> [!todo]
+>> #### 🧾 Daily Routine Tasks
 >> ```todoist
->> filter: "##CSE"
+>> name: "View tasks:"
+>> filter: "##Goals & @daily check-in & today"
+>> autorefresh: 30
+>> sorting:
+>>  - date
+>>  - priority
+>> groupBy: section
+>> ```
+>
+>> [!todo]
+>> #### 💻 Coding Tasks & Overview>> 
+>> - **_Coding topics & status_** [^1]   
+>> - **_[[@sandbox|Coding Notes]]_**
+>> ---
+>> ```todoist
+>> name: "View coding tasks:"
+>> filter: "##Code & @code"
+>> autorefresh: 30
+>> sorting:
+>>  - date
+>>  - priority
+>> ```
+
+---
+
+> [!multi-column]
+>
+>> [!todo]
+>> #### 📚 Study Overview
+>> - 6th Semester Lab Exam
+>> - 5th  Semester Retake
+>> - current 7th Semester Courses
+>> ---
+>> ```todoist
+>> name: "View study tasks:"
+>> filter: "##CSE & @study & today"
 >> autorefresh: 30
 >> sorting:
 >>   - date
@@ -126,70 +99,36 @@ E-Cap:
 >> groupBy: section
 >> ```
 >
->> [!abstract] 
->> #### 💻 _Coding Progress_
->> - _@coding_topics_
->> - _[[@sandbox|@coding_notes]]_
->> - _@coding_tasks_
->>
->> ###### View coding tasks:
->> ```todoist
->> filter: "##Code"
->> autorefresh: 30
->> sorting:
->>   - date
->>   - priority
->> groupBy: section
->> ```
->> ---
->> ###### Topics & Status:
->>  - `tailwind`— ongoing 
->>  - `javascript`
->>  - `react`
->>  - `laravel`
->>  - `database`
->>  - `projects`
->>  - `frontend`
->>  - `backend`
+>> [!todo]
+>> #### 📌 Notes & Reminders
+>> - For _persona verification_ need to wait 48 hours to 5 days to recover _LinkedIn_ id properly.
+>> - _Keep 5 times prayer record_ [^2]   
+>> - _Keep meal logs record_ [^3]   
+>> - _7 day skin care routine_ [^4]   
+>> - _7 day hair care routine_ [^5]   
 
 ---
 
-### 📌 Notes & Reminders
-
-- For _persona verification_ need to wait 48 hours to 5 days to recover _LinkedIn_ id properly.
-
-
----
-
-## 📊 Journal Insights
-
-“A curated view of daily records and key notes to track progress and references.”
-
-> [!multi-column]
-> 
->> [!abstract]+
->> ```dataview
->>  	list from "16 DataViews"
->>   	where file.name != "16 DataViews"
->>    	sort file.name asc
->>  ```
-
-
----
-
-##  💭 Review & Reflection
+##  Daily Review
 
 - 🌟 Highlight of the Day  
 - ⚡ Challenges Encountered  
 - 📌 Key Takeaways / Lessons Learned  
 
-Here's the details reflection of the day: [^8]
+Here's the details reflection of the day —
 
----
+[^1]: ###### _Coding Topics & Status_
+	
+	- `tailwind`— ongoing 
+	- `javascript`
+	- `react`
+	- `laravel`
+	- `database`
+	- `projects`
+	- `frontend`
+	- `backend`
 
-### 🔖 Footnotes
-
-[^1]: Pray 5 times salats daily with consistency.
+[^2]: Pray 5 times salats daily with consistency.
 	
 	_today's salat record:_
 	- tahajjut::false
@@ -200,7 +139,7 @@ Here's the details reflection of the day: [^8]
 	- isha::false
 	- kaja::
 
-[^2]: **🍽 Meals & Snacks**
+[^3]: **🍽 Meals & Snacks**
 	- breakfast::
 	- snacks::
 	- lunch::
@@ -215,42 +154,7 @@ Here's the details reflection of the day: [^8]
 	
 	#diet 
 
-[^3]: **Medicine Checklist**	
-	- সকালে খালি পেটে `Thyrox 50`
-	- সকালে খাবারের পর `E-cap` & `xinc B`
-	- রাতে খাবারের পর `E-cap` & `xinc B`
-	
-	#medicine
-
-[^4]: _Exercise list for Lower Body Fat_
-	
-	- Air Squat    
-	- Front and Back Lunge    
-	- Donkey Kick    
-	- Fire Hydrant Pulse    
-	- Outer Leg Lift    
-	- Inner Leg Lift    
-	- Side Lunge    
-	- Curtsy Lunge    
-	- Sumo Squat Hold / Sumo Squat Pulses    
-	- Leg Rainbow    
-	- Leg Split    
-	- Standing Leg Raise
-	
-	#exercise 
-
-[^5]: _Daily Chores:_
-	
-	```todoist
-	filter: "##Chores"
-	autorefresh: 30
-	sorting:  
-	  - date
-	  - priority
-	groupBy: section
-	```
-
-[^6]: ##### 7 Day Skin Care:
+[^4]: ##### 7 Day Skin Care:
 	
 	1.  **Saturday – Brightening & Tan Removal** 
 		- besan + orange peel powder + turmeric + lemon juice (yogurt optional)
@@ -264,10 +168,8 @@ Here's the details reflection of the day: [^8]
 	6. **Thursday – Skip Day**    
 	7. **Friday – Anti-Aging & Glow** 
 		- beetroot powder + besan + honey/yogurt/milk
-	
-	#skin_care 
 
-[^7]: ##### 7 Day Hair Care:
+[^5]: ##### 7 Day Hair Care:
 			
 	1. **Saturday – Protein & Shine Pack**    
 		  - whole egg + yogurt + fenugreek paste/powder (soaked overnight), wash with mild shampoo        
@@ -281,15 +183,4 @@ Here's the details reflection of the day: [^8]
 		  - flaxseed gel + onion juice, rinse with plain water (no shampoo)        
 	7. **Friday – Oiling / Light Nourishment**    
 		  - rosemary oil (warm slightly), massage 10 mins, leave 1–2 hrs or overnight
-	
-	#hair_care 
 
-[^8]: _Reflection:_
-	
-	- rating::**Rating:**  
-	- reflection::
-
-
-```meta-bind-embed
-[[MetaBindEmbeds Spaces Buttons]]
-```

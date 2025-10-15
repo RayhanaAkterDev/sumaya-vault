@@ -1,0 +1,2 @@
+
+"smart_sources:@templates/05 Prompt Template.md": {"path":"@templates/05 Prompt Template.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1vvnkfb","at":1760249458907},"class_name":"SmartSource","last_import":{"mtime":1760248737921,"size":135,"at":1760249458908,"hash":"1vvnkfb"},"blocks":{"#---frontmatter---":[1,7],"#":[9,10],"#Prompt":[11,15],"#Prompt#{1}":[13,15]},"outlinks":[{"title":"ChatGPT Prompts","target":"@prompts","line":9}],"metadata":{"class":"note","title":null,"date":null,"model":"gpt-4o-mini","tags":null},"task_lines":[]},

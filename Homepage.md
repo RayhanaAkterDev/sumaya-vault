@@ -4,19 +4,9 @@ title: Homepage
 # Homepage
 
 _Welcome, Sumaya!_  
-📅 [[2025-10-01|2025-10-01]]  
+📅 [[2025-10-01|2025-10-01]] 
 
-```button
-name New note
-type command
-action Create new note
-color blue
-```
-^button-balp
-
----
-
-##### Calendar View
+#### Calendar View
 
 ```dataview
 CALENDAR date(file.name)

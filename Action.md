@@ -1,0 +1,5 @@
+- `button-note` 
+- `button-resource`
+- `button-quote`
+- `button-prompt`
+- `button-capture`

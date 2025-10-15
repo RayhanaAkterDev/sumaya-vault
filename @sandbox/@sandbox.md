@@ -1,6 +1,8 @@
 ---
-title: Coding Notes
+title: Sandbox
 class: note
+aliases:
+  - Coding Note
 tags:
   - code
 ---
@@ -17,8 +19,8 @@ tags:
 
 ```dataview
 list
-from "07 Coding Notes"
+from "@sandbox"
 where contains(file.folder, file.name)
-  and length(split(file.folder, "/")) = length(split("07 Coding Notes", "/")) + 1
+  and length(split(file.folder, "/")) = length(split("@sandbox", "/")) + 1
 sort file.ctime asc
 ```

@@ -1,5 +1,5 @@
 ---
-Title: Templates
+title: Templates
 ---
 
 # Table of Contents
