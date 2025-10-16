@@ -60,9 +60,11 @@ _Define true outcome of the day:_
 >> filter: "##Goals & @daily check-in & today"
 >> autorefresh: 30
 >> sorting:
->>  - date
->>  - priority
+>>  - priorityAscending
 >> groupBy: section
+>> show: 
+>>  - date
+>>  - description
 >> ```
 >
 >> [!todo]
@@ -77,6 +79,10 @@ _Define true outcome of the day:_
 >> sorting:
 >>  - date
 >>  - priority
+>> groupBy: section
+>> show: 
+>>  - date
+>>  - description
 >> ```
 
 ---
@@ -91,12 +97,15 @@ _Define true outcome of the day:_
 >> ---
 >> ```todoist
 >> name: "View study tasks:"
->> filter: "##CSE & @study & today"
+>> filter: "##Study & @study"
 >> autorefresh: 30
 >> sorting:
 >>   - date
 >>   - priority
 >> groupBy: section
+>> show: 
+>>  - date
+>>  - description
 >> ```
 >
 >> [!todo]

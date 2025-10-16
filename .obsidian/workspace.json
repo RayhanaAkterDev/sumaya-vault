@@ -14,14 +14,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "@journal/@daily-notes/2025-10-16.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "2025-10-16"
             }
           }
         ]
@@ -43,7 +43,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#diet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,12 +78,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "8f112ace402a832e",
@@ -113,8 +112,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
+              "icon": "calendar-clock",
+              "title": "Timeline"
             }
           },
           {
@@ -138,10 +137,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "@journal/@weekly-notes/2025-W42.md"
+                "file": "@journal/@daily-notes/2025-10-16.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-W42"
+              "title": "File properties for 2025-10-16"
             }
           },
           {
@@ -195,20 +194,10 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "20 ChatGPT Prompts/@prompt 1 — Sentence Paraphrasing.md"
+                "file": "Homepage.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
-            }
-          },
-          {
-            "id": "8dca432d76d8941c",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-clock",
-              "title": "Timeline"
             }
           }
         ],
@@ -229,7 +218,7 @@
       "cmdr:Calendar: Open view": false,
       "cmdr:Recent Files: Open": false,
       "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
+      "templater-obsidian:Templater": true,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-git:Open Git source control": false,
@@ -241,33 +230,37 @@
   },
   "active": "462c365a36e86f05",
   "lastOpenFiles": [
-    "@journal/@daily-notes/2025-10-14.md",
     "Homepage.md",
-    "@journal/@daily-notes/2025-10-13.md",
-    "@journal/@weekly-notes/2025-W42.md",
-    "@templates/02 Weekly Template.md",
-    "@templates/01 Daily Note Template.md",
-    "@journal/@daily-notes/2025-10-15.md",
-    "@u-capture/2025-10-13 04.30 pm.md",
-    "@u-capture/2025-10-12 02.44 pm.md",
-    "@u-capture/2025-10-12 04.35 pm.md",
-    "@journal/@weekly-notes/2025-W44.md",
-    "@journal/@daily-notes/2025-10-20.md",
     "@journal/@daily-notes/2025-10-16.md",
-    "Productivity Rules.md",
-    "Action.md",
-    "@journal/@weekly-notes/2025-W43.md",
-    "@u-capture/@notes/MetaBindEmbeds Spaces Buttons.md",
-    "10 Templates/10 Templates.md",
-    "10 Templates/weekly_template.md",
+    "@journal/@daily-notes/2025-10-15.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Board Questions.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/22 Describe the method used to transfer data to a high speed printer from a computer..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Chapter 1 - Interfacing Techniques.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/21 Explain RS-232C serial interfacing technique with proper diagram..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/20 Describe the data transmission modes based on direction..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/19 Describe the basic peripheral and interfacing technique with necessary diagram..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/18 List down the major components of 8251A programmable communication interface..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/17 Draw the internal architecture of 8255 PPI and discuss it's ports..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/12 What does PPI and PCI stand for.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/01 Define the term peripheral.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/16 Explain the different components of digital computers..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/07 What is DMA.  Discuss the role of DMA in peripheral interfacing..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/10 Define memory mapped I-O and peripheral I-O. Compare between them..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/15 Write down the functions of POS machine..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/14 What is computer highway. Briefly describe all types of bus operations..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/13 Write down the different types of input control signals of handshake mode-1 of 8255 I-O ports..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/11 What is DMA controller. Explain with block diagram how a DMA controller operate in a micro-computer system.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/09 What are the differences between synchronous and asynchronous transmission.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/08 Why does the DMA generally have priority over the CPU in the case of accessing memory.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/06 What are the difference between parallel and serial interfacing.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/05 Discuss the basic interfacing unit with proper diagram..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/04 What are the importance of interfacing.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/01 Peripheral & Interfacing.md",
+    "@uploads/Pasted image 20251016105830.png",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques",
+    "questhub/5th Semester/01 Peripheral and Interfacing",
+    "questhub/5th Semester",
     "10 Templates",
-    "@journal/@daily-notes/2025-10-12.md",
-    "@u-capture/@notes/Buttons.md",
-    "@u-capture/2025-10-12 02.25 pm.md",
-    "@u-capture/@resources/Resource.md",
-    "@u-capture/@quotes-zone/{{quote}}.md",
-    "@u-capture/@quotes-zone/Quiet is Strength.md",
-    "@templates/07 Quote Template.md",
     "@u-capture/@resources",
     "02 Journal/Daily_Notes",
     "02 Journal",
@@ -282,10 +275,6 @@
     "12 Attachments/Untitled design.png",
     "@uploads/consistent vs perfection.png",
     "12 Attachments/all the available tailwind directives name.png",
-    "12 Attachments/621-general-machine-structure 1.png",
-    "@uploads/prev_attachments/Images",
-    "@uploads/prev_attachments",
-    "@u-capture/@prompts",
-    "@vault/@random"
+    "@uploads/prev_attachments/Images"
   ]
 }

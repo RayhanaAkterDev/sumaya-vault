@@ -3,3 +3,6 @@
 - `button-quote`
 - `button-prompt`
 - `button-capture`
+- `button-snippet`
+- `button-template`
+- `button-cse`

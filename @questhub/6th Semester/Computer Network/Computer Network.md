@@ -17,13 +17,13 @@ tags: CN
 ### Chapter Notes
 
 ```dataview
-table status as "Status"
-from "06 CSE DIIT/6th Semester/Computer Network"
+table status as "Status", tags
+from "@questhub/6th Semester/Computer Network"
 where
   (
-    length(split(file.folder, "/")) = length(split("06 CSE DIIT/6th Semester/Computer Network", "/"))
+    length(split(file.folder, "/")) = length(split("@questhub/6th Semester/Computer Network", "/"))
     or (
-      length(split(file.folder, "/")) = length(split("06 CSE DIIT/6th Semester/Computer Network", "/")) + 1
+      length(split(file.folder, "/")) = length(split("@questhub/6th Semester/Computer Network", "/")) + 1
       and contains(file.folder, file.name)
     )
   )

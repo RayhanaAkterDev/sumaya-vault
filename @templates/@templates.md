@@ -13,8 +13,11 @@ sort file.name
 
 ---
 
-`BUTTON[new_note]`
-
-```meta-bind-embed
-[[MetaBindEmbeds Spaces Buttons]]
+```button
+name Create template
+type command
+action Create new note
+color blue
+actions [{"type":"note text","action":""}]
 ```
+^button-template

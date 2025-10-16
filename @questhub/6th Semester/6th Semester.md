@@ -11,8 +11,8 @@ date: 2025-07-27
 
 ```dataview
 table status as "Status"
-from "06 CSE DIIT/6th Semester"
+from "@questhub/6th Semester"
 where contains(file.folder, file.name)
-  and length(split(file.folder, "/")) = length(split("06 CSE DIIT/6th Semester", "/")) + 1
+  and length(split(file.folder, "/")) = length(split("@questhub/6th Semester", "/")) + 1
 sort file.name asc
 ```

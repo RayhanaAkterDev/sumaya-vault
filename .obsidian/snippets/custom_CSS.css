@@ -8,10 +8,6 @@
 	/* border-top: 1px solid rgb(65, 65, 94); */
 }
 
-.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
-	max-width: 90% !important;
-}
-
 h6 {
 	display: inline-block;
 	border-bottom: 1px solid rgb(65, 65, 94);
@@ -40,34 +36,14 @@ h5 {
 }
 
 /* General DataviewJS Table Styling */
-.dataview table {
-	width: 100% !important;
-}
-
 .dataview thead th {
-	padding: 8px;
-	/* border: 1px solid var(--background-modifier-border) !important; */
+/* padding: 8px; */
 }
 
 .dataview tbody td {
-	/* min-width: 120px !important; */
-	/* padding: 6px 8px !important; */
-	border: 1px solid var(--background-modifier-border) !important;
-}
-
-.dataview a {
-	color: var(--interactive-accent) !important;
-	/* text-decoration: none !important; */
-}
-
-a.tag {
-	line-height: 2rem !important;
-	font-size: 10px !important;
-	font-weight: 600 !important;
-}
-
-.markdown-preview-view {
-	width: 100% !important;
+/* min-width: 120px !important; */
+/* padding: 6px 8px !important; */
+border: 1px solid var(--background-modifier-border) !important;
 }
 
 .status-bar {
