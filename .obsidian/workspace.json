@@ -14,17 +14,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@journal/@daily-notes/2025-10-16.md",
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2025-10-16"
+              "title": "Homepage"
+            }
+          },
+          {
+            "id": "8d02f8f9115a01e0",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-manage-forms-view",
+              "state": {},
+              "icon": "documents",
+              "title": "Manage forms"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "8f112ace402a832e",
@@ -194,7 +206,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Homepage.md"
+                "file": "@journal/@daily-notes/2025-10-16.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -205,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 429.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,13 +237,24 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": true,
       "smart-connections:Smart Connections: Open random connection": true,
+      "modalforms:Edit forms": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "462c365a36e86f05",
+  "active": "8d02f8f9115a01e0",
   "lastOpenFiles": [
-    "Homepage.md",
+    "@journal/@weekly-notes/2025-W42.md",
     "@journal/@daily-notes/2025-10-16.md",
+    "Homepage.md",
+    "@u-capture/2025-10-16 06.12 pm.md",
+    "@questhub/6th Semester/Computer Network/Chapter 5 - Network Layer/26 Describe the various approaches for controlling network congestion..md",
+    "@sandbox/Github/01 How to commit.md",
+    "@questhub/6th Semester/Embedded System Programming/Chapter 3 - Active X/13 Describe API's Working Method..md",
+    "@u-capture/2025-10-16 05.55 pm.md",
+    "@u-capture/2025-10-12 02.44 pm.md",
+    "@u-capture/2025-10-16 10.20 am.md",
+    "@templates/01 Daily Note Template.md",
+    "@journal/@daily-notes/2025-10-17.md",
     "@journal/@daily-notes/2025-10-15.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Board Questions.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/22 Describe the method used to transfer data to a high speed printer from a computer..md",
@@ -246,16 +269,6 @@
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/16 Explain the different components of digital computers..md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/07 What is DMA.  Discuss the role of DMA in peripheral interfacing..md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/10 Define memory mapped I-O and peripheral I-O. Compare between them..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/15 Write down the functions of POS machine..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/14 What is computer highway. Briefly describe all types of bus operations..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/13 Write down the different types of input control signals of handshake mode-1 of 8255 I-O ports..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/11 What is DMA controller. Explain with block diagram how a DMA controller operate in a micro-computer system.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/09 What are the differences between synchronous and asynchronous transmission.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/08 Why does the DMA generally have priority over the CPU in the case of accessing memory.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/06 What are the difference between parallel and serial interfacing.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/05 Discuss the basic interfacing unit with proper diagram..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/04 What are the importance of interfacing.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/01 Peripheral & Interfacing.md",
     "@uploads/Pasted image 20251016105830.png",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques",
     "questhub/5th Semester/01 Peripheral and Interfacing",

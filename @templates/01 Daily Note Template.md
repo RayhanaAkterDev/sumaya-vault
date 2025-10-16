@@ -54,13 +54,34 @@ _Define true outcome of the day:_
 > [!multi-column]
 > 
 >> [!todo]
->> #### 🧾 Daily Routine Tasks
+>> #### 🧾 Today's Tasks List
 >> ```todoist
 >> name: "View tasks:"
->> filter: "##Goals & @daily check-in & today"
+>> filter: "##Goals & @daily check-in & <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>"
 >> autorefresh: 30
 >> sorting:
+>>  - dateAscending
 >>  - priorityAscending
+>> groupBy: project
+>> ```
+
+---
+
+> [!multi-column]
+>
+>> [!todo]
+>> #### 📚 Study Overview
+>> - 6th Semester Lab Exam
+>> - 5th  Semester Retake
+>> - current 7th Semester Courses
+>> ---
+>> ```todoist
+>> name: "View study tasks:"
+>> filter: "##Study & @study"
+>> autorefresh: 30
+>> sorting:
+>>   - date
+>>   - priority
 >> groupBy: section
 >> show: 
 >>  - date
@@ -88,27 +109,8 @@ _Define true outcome of the day:_
 ---
 
 > [!multi-column]
->
->> [!todo]
->> #### 📚 Study Overview
->> - 6th Semester Lab Exam
->> - 5th  Semester Retake
->> - current 7th Semester Courses
->> ---
->> ```todoist
->> name: "View study tasks:"
->> filter: "##Study & @study"
->> autorefresh: 30
->> sorting:
->>   - date
->>   - priority
->> groupBy: section
->> show: 
->>  - date
->>  - description
->> ```
->
->> [!todo]
+> 
+>> [!note]
 >> #### 📌 Notes & Reminders
 >> - For _persona verification_ need to wait 48 hours to 5 days to recover _LinkedIn_ id properly.
 >> - _Keep 5 times prayer record_ [^2]   
