@@ -38,9 +38,24 @@
               "icon": "lucide-file",
               "title": "@notes"
             }
+          },
+          {
+            "id": "55a552b976adf304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@u-capture/@u-capture.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "@u-capture"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,32 +262,32 @@
   },
   "active": "462c365a36e86f05",
   "lastOpenFiles": [
-    "@u-capture/@notes/Reusable Systems.md",
+    "@trailhead/@daily-reviews.md",
+    "@journal/@daily-notes/2025-10-18.md",
+    "@journal/@daily-notes/2025-10-17.md",
+    "@templates/01 Daily Note Template.md",
+    "@journal/@daily-notes/2025-10-16.md",
     "@u-capture/@notes/@notes.md",
+    "Homepage.md",
+    "@u-capture/@u-capture.md",
+    "@u-capture/@notes/Buttons.md",
+    "@u-capture/@notes/Select Niche.md",
+    "@u-capture/@notes/Obsidian Guide.md",
+    "@u-capture/@notes/Coding Roadmap.md",
+    "@u-capture/@notes/Exercise options.md",
+    "@u-capture/@notes/04 Bongo's Courses.md",
+    "@u-capture/@notes/05 AI Usage.md",
+    "@u-capture/@notes/06 ChatGPT Command Prompt Library.md",
+    "@u-capture/@notes/08 Tailwind Warning.md",
+    "@u-capture/@notes/Learning Strategies 2.0.md",
+    "@u-capture/@notes/Reusable Systems.md",
     "@u-capture/@notes/Short keys.md",
     "@u-capture/@notes/Smart Work Strategy.md",
     "@u-capture/@notes/Strategies to Develop Yourself for Success.md",
     "@u-capture/@notes/What To Do to Get Rid of “Laziness”.md",
-    "Homepage.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/04 What are the importance of interfacing.md",
     "Action.md",
-    "@u-capture/@u-capture.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Chapter 1 - Interfacing Techniques.md",
-    "@journal/@daily-notes/2025-10-17.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/05 Discuss the basic interfacing unit with proper diagram..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/03 What is the role of computer peripherals.md",
-    "@u-capture/2025-10-17 03.20 pm.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/07 Describe the basic peripheral and interfacing technique with necessary diagram..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/06 What are the difference between parallel and serial interfacing.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/02 What do you understand by interfacing.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/01 Define the term peripheral.md",
-    "@u-capture/@prompts/@prompts.md",
-    "@u-capture/@prompts/@prompt 2 — Simplify Complex Concepts.md",
-    "@u-capture/2025-10-16 10.20 am.md",
-    "@u-capture/2025-10-16 05.55 pm.md",
-    "@u-capture/2025-10-15 07.18 pm.md",
-    "@u-capture/2025-10-12 04.35 pm.md",
-    "@u-capture/2025-10-12 02.44 pm.md",
     "@uploads/Pasted image 20251016105830.png",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques",
     "questhub/5th Semester/01 Peripheral and Interfacing",

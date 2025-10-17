@@ -1,3 +1,7 @@
+---
+title: button plugin
+---
+
 _New Note:_	
 ```button
 name New note

@@ -1,6 +1,6 @@
 ---
 class: note
-title: 03 Select Niche
+title: Select Niche
 status: Done
 date: 2025-08-03 08:04 am
 ---

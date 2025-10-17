@@ -3,11 +3,13 @@ title: Notes
 class: note
 ---
 
-# Table of Contents
+```datacards
+TABLE
+FROM "@u-capture/@notes"
+WHERE file.folder = "@u-capture/@notes"
+AND file.name != "@notes"
 
-```dataview
-table dateformat(file.ctime, "yyyy-MM-dd") as "Created", file.mtime as "Modified"
-from "@u-capture/@notes"
-where length(split(file.folder, "/")) <= 2
-sort file.name
+// Settings
+preset: portrait
+imageProperty: cover
 ```

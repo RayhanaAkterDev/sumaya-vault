@@ -28,8 +28,8 @@ FROM "@journal/@daily-notes"
  
 > **Current**: Phase 2 – JavaScript Core Concepts 
 
-- [[02 Coding Roadmap|See the full roadmap →]]
-- [[03 Select Niche|See your niche roadmap]]
+- [[Coding Roadmap|See the full roadmap →]]
+- [[Select Niche|See your niche roadmap]]
 
 
 

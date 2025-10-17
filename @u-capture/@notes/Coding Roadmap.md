@@ -2,7 +2,6 @@
 class: note
 title: Coding Roadmap
 date: 2025-07-28
-status: Done
 ---
 
 _Current State_: Phase 2 – JavaScript Core Concepts  
