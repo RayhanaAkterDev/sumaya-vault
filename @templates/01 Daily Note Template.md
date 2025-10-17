@@ -57,12 +57,11 @@ _Define true outcome of the day:_
 >> #### 🧾 Today's Tasks List
 >> ```todoist
 >> name: "View tasks:"
->> filter: "##Goals & @daily check-in & <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>"
+>> filter: "<% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>"
 >> autorefresh: 30
 >> sorting:
->>  - dateAscending
 >>  - priorityAscending
->> groupBy: project
+>> groupBy: section
 >> ```
 
 ---

@@ -15,7 +15,7 @@ tags:
 
 
 ```dataview
-table aliases, tags
+table aliases, tags, status
 FROM "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques"
 where
   (

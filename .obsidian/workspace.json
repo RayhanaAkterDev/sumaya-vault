@@ -25,13 +25,18 @@
             }
           },
           {
-            "id": "8d02f8f9115a01e0",
+            "id": "b70d1f24186c887c",
             "type": "leaf",
             "state": {
-              "type": "modal-form-manage-forms-view",
-              "state": {},
-              "icon": "documents",
-              "title": "Manage forms"
+              "type": "markdown",
+              "state": {
+                "file": "@u-capture/@notes/@notes.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "@notes"
             }
           }
         ],
@@ -54,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#diet",
+                "query": "what do you understand ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -93,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "8f112ace402a832e",
@@ -134,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 ChatGPT Prompts/@prompt 1 — Sentence Paraphrasing.md",
+                "file": "@trailhead/@daily-reviews.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of @prompt 1 — Sentence Paraphrasing"
+              "title": "Outline of @daily-reviews"
             }
           },
           {
@@ -149,10 +153,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "@journal/@daily-notes/2025-10-16.md"
+                "file": "@trailhead/@daily-reviews.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-10-16"
+              "title": "File properties for @daily-reviews"
             }
           },
           {
@@ -241,34 +245,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d02f8f9115a01e0",
+  "active": "462c365a36e86f05",
   "lastOpenFiles": [
-    "@journal/@weekly-notes/2025-W42.md",
-    "@journal/@daily-notes/2025-10-16.md",
+    "@u-capture/@notes/Reusable Systems.md",
+    "@u-capture/@notes/@notes.md",
+    "@u-capture/@notes/Short keys.md",
+    "@u-capture/@notes/Smart Work Strategy.md",
+    "@u-capture/@notes/Strategies to Develop Yourself for Success.md",
+    "@u-capture/@notes/What To Do to Get Rid of “Laziness”.md",
     "Homepage.md",
-    "@u-capture/2025-10-16 06.12 pm.md",
-    "@questhub/6th Semester/Computer Network/Chapter 5 - Network Layer/26 Describe the various approaches for controlling network congestion..md",
-    "@sandbox/Github/01 How to commit.md",
-    "@questhub/6th Semester/Embedded System Programming/Chapter 3 - Active X/13 Describe API's Working Method..md",
-    "@u-capture/2025-10-16 05.55 pm.md",
-    "@u-capture/2025-10-12 02.44 pm.md",
-    "@u-capture/2025-10-16 10.20 am.md",
-    "@templates/01 Daily Note Template.md",
-    "@journal/@daily-notes/2025-10-17.md",
-    "@journal/@daily-notes/2025-10-15.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Board Questions.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/22 Describe the method used to transfer data to a high speed printer from a computer..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/04 What are the importance of interfacing.md",
+    "Action.md",
+    "@u-capture/@u-capture.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/Chapter 1 - Interfacing Techniques.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/21 Explain RS-232C serial interfacing technique with proper diagram..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/20 Describe the data transmission modes based on direction..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/19 Describe the basic peripheral and interfacing technique with necessary diagram..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/18 List down the major components of 8251A programmable communication interface..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/17 Draw the internal architecture of 8255 PPI and discuss it's ports..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/12 What does PPI and PCI stand for.md",
+    "@journal/@daily-notes/2025-10-17.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/05 Discuss the basic interfacing unit with proper diagram..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/03 What is the role of computer peripherals.md",
+    "@u-capture/2025-10-17 03.20 pm.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/07 Describe the basic peripheral and interfacing technique with necessary diagram..md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/06 What are the difference between parallel and serial interfacing.md",
+    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/02 What do you understand by interfacing.md",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/01 Define the term peripheral.md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/16 Explain the different components of digital computers..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/07 What is DMA.  Discuss the role of DMA in peripheral interfacing..md",
-    "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques/10 Define memory mapped I-O and peripheral I-O. Compare between them..md",
+    "@u-capture/@prompts/@prompts.md",
+    "@u-capture/@prompts/@prompt 2 — Simplify Complex Concepts.md",
+    "@u-capture/2025-10-16 10.20 am.md",
+    "@u-capture/2025-10-16 05.55 pm.md",
+    "@u-capture/2025-10-15 07.18 pm.md",
+    "@u-capture/2025-10-12 04.35 pm.md",
+    "@u-capture/2025-10-12 02.44 pm.md",
     "@uploads/Pasted image 20251016105830.png",
     "@questhub/5th Semester/01 Peripheral & Interfacing/Chapter 1 - Interfacing Techniques",
     "questhub/5th Semester/01 Peripheral and Interfacing",

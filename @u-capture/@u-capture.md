@@ -1,23 +1,12 @@
 ---
-title: Capture Vault
+title: u-capture
 ---
-
-
-
-`BUTTON[new_note]`  
-
-> `BUTTON[discovery_log]`
-
-```meta-bind-embed
-[[MetaBindEmbeds Spaces Buttons]]
-```
-
 
 ```datacards
 TABLE title, source, description
-FROM "@vault"
-WHERE file.folder = "@vault"
-AND file.name != "Capture Vault"
+FROM "@u-capture"
+WHERE file.folder = "@u-capture"
+AND file.name != "@u-capture"
 
 // Settings
 preset: portrait

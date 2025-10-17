@@ -106,5 +106,31 @@
       ],
       "key": "C"
     }
+  ],
+  "auto-card-link:auto-card-link-enhance-selected-url": [],
+  "floating-toc:search-in-toc": [],
+  "quickadd:choice:d9e81a76-be9f-4911-b5aa-68363a1c2fc3": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "quickadd:choice:8097c2cd-c168-415b-970d-8dbf2715e4a0": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "e"
+    }
   ]
 }
