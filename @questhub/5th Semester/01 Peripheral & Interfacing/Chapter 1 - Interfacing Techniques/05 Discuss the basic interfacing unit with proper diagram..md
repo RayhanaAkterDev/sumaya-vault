@@ -16,7 +16,6 @@ tags:
 aliases:
   - Describe the basic peripheral and interfacing technique with necessary diagram.
   - Depict the connection of interface unit to the highway
-  - What are the basic requirements for proper interface between a microprocessor and I/O device?
 ---
 
 ### Basic Interfacing Unit

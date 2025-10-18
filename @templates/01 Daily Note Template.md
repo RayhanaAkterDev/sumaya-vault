@@ -52,6 +52,10 @@ _Define true outcome of the day:_
 >> - 6th Semester Lab Exam
 >> - 5th  Semester Retake
 >> - current 7th Semester Courses
+>> ##### Study notes 
+>> - [[5th Semester]]
+>> 	- [[01 Peripheral & Interfacing|Peripheral & Interfacing]]
+>> 		- [[Chapter 1 - Interfacing Techniques]]
 >> ---
 >> ```todoist
 >> name: "View study tasks:"

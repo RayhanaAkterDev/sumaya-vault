@@ -7,7 +7,7 @@ chapter:
   - chapter 1 - Interfacing Techniques
 semester: 5th
 date: 2025-10-16
-status: pending ⏳
+status: done ✅
 tags:
   - board_2016
   - board_2018

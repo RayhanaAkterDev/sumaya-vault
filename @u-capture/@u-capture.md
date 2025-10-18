@@ -3,10 +3,18 @@ title: u-capture
 ---
 
 ```datacards
-table
+TABLE title, source, description
 FROM "@u-capture"
-WHERE file.folder = "@u-capture"
-AND file.name != "@u-capture"
+where
+  (
+    length(split(file.folder, "/")) = length(split("@u-capture", "/"))
+    or (
+      length(split(file.folder, "/")) = length(split("@u-capture", "/")) + 1
+      and contains(file.folder, file.name)
+    ) 
+  )
+
+sort file.name asc
 
 // Settings
 preset: portrait
