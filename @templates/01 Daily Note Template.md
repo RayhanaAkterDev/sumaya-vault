@@ -8,11 +8,15 @@ aliases:
 
 # <% moment(tp.file.title, "YYYY-MM-DD").format("ddd MMM DD YYYY") %>
 
-> [!info]
-> ##### 📅 Week No. [[@journal/@weekly-notes/<%moment(tp.file.title).format("gggg-[W]ww")%>|<%moment(tp.file.title).format("gggg-[W]ww")%>]]  
-> [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").subtract(1, "days").format("YYYY-MM-DD") %> | Yesterday ⏪ ]] | [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").add(1, "days").format("YYYY-MM-DD") %> | ⏩ Next day ]]
+> [!multi-column]
 > 
-> `BUTTON[edit_daily_temp]`
+>> [!info] 
+>> ##### 📅 Week No. [[@journal/@weekly-notes/<%moment(tp.file.title).format("gggg-[W]ww")%>|<%moment(tp.file.title).format("gggg-[W]ww")%>]]  
+>> [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").subtract(1, "days").format("YYYY-MM-DD") %> | Yesterday ⏪ ]] | [[ @journal/@daily-notes/<% moment(tp.file.title, "YYYY-MM-DD").add(1, "days").format("YYYY-MM-DD") %> | ⏩ Next day ]]
+>
+>> [!note]
+>> ##### Quick Buttons
+>> `BUTTON[edit_daily_temp]` `button-snippet`
 
 ```meta-bind-embed
 [[MetaBindEmbeds Spaces Buttons]]
@@ -20,15 +24,47 @@ aliases:
 
 ---
 
-## Daily Goals
-
-_Define true outcome of the day:_
-
-1. 
+> [!multi-column]
+> 
+>> [!info]
+>> ##### The Anti-Vision Strategy
+>> আমি সুমাইয়া জীবনে যা চাই না —
+>> - আব্বুর টাকায় জীবন চালাতে চাই না।
+>> - ভাইদের কাছে হাত পাততে চাই না।
+>> - কারো কাছে সস্তা হতে চাই না।
+>> ---
+>>
+>> ##### Non-Negotiable Standards
+>> 
+>>> [!multi-column]  
+>>> 
+>>>> [!info]
+>>>> ###### Health Standards
+>>>> - প্রতিদিন কমপক্ষে ৭ ঘণ্টা ঘুমান।    
+>>>> - সপ্তাহে কমপক্ষে ৫ দিন স্বাস্থ্যকর খাবার খাওয়া।
+>>>> - [ ] প্রতিদিন ৩০ মিনিট ব্যায়াম কোরা বা হাঁটা।    
+>>>> - [ ] ফাস্টফুড ও অতিরিক্ত চিনি বর্জন করা।    
+>>>> - [ ] প্রতিদিন পর্যাপ্ত পানি (কমপক্ষে ২ লিটার) পান করা।
+>>>
+>>>> [!info]
+>>>> ###### Study & Career Standards
+>>>> - [ ] প্রতিদিন কমপক্ষে ২ ঘণ্টা কোডিং এবং স্টাডি করা।
+>>>> - [ ] প্রতিদিনের সকল Code & Study কাজ সম্পন্ন করা।
+>>>> - [ ] প্রতিদিন ১টি নতুন কনসেপ্ট শিক্ষার চেষ্টা কোর্মা।   
+>>>> - সপ্তাহে একবার Code / Project & Study রিভিউ করা।
 
 ---
 
-## Tasks Overview
+## Today's 3 MITs
+
+> Take small steps daily toward big goals;   
+> No progress in two weeks means you wasted your time.
+
+1. Finish today’s study    
+2. Complete all code tasks    
+3. Perform all 5 times daily salat
+
+---
 
 > [!multi-column]
 > 
@@ -56,47 +92,32 @@ _Define true outcome of the day:_
 >> - [[5th Semester]]
 >> 	- [[01 Peripheral & Interfacing|Peripheral & Interfacing]]
 >> 		- [[Chapter 1 - Interfacing Techniques]]
->> ---
->> ```todoist
->> name: "View study tasks:"
->> filter: "##Study & @study"
->> autorefresh: 30
->> sorting:
->>   - date
->>   - priority
->> groupBy: section
->> show: 
->>  - date
->>  - description
->> ```
 >
 >> [!todo]
->> #### 💻 Coding Tasks & Overview>> 
->> - **_Coding topics & status_** [^1]   
->> - **_[[@sandbox|Coding Notes]]_**
->> ---
->> ```todoist
->> name: "View coding tasks:"
->> filter: "##Code & @code"
->> autorefresh: 30
->> sorting:
->>  - date
->>  - priority
->> groupBy: section
->> show: 
->>  - date
->>  - description
->> ```
+>> #### 💻 Coding Overview>> 
+>> Check footnotes to see: _Coding topics & status_ [^1]  
+>> ```dataview
+>> table
+>> from "@sandbox"
+>> where
+>>   (
+>>    length(split(file.folder, "/")) = length(split("@sandbox", "/"))
+>>    or (
+>>    length(split(file.folder, "/")) = length(split("@sandbox", "/")) + 1
+>>    and contains(file.folder, file.name)
+>>   ) 
+>>  )
+>>  
+>> sort file.ctime asc
+>>  ```
 
 ---
 
-> [!multi-column]
-> 
->> [!note]
->> #### 📌 Notes & Reminders
->> - For _persona verification_ need to wait 48 hours to 5 days to recover _LinkedIn_ id properly.
->> - _7 day skin care routine_ [^2]   
->> - _7 day hair care routine_ [^3]   
+
+## Notes & Reminders
+
+- _7 day skin care routine_ [^2]   
+- _7 day hair care routine_ [^3]   
 
 ---
 
@@ -134,7 +155,7 @@ See all your daily reflections and progress — [[@daily-reviews|👉 click here
 	7. **Friday – Anti-Aging & Glow** 
 		- beetroot powder + besan + honey/yogurt/milk
 
-[^3E]: ##### 7 Day Hair Care:
+[^3]: ##### 7 Day Hair Care:
 			
 	1. **Saturday – Protein & Shine Pack**    
 		  - whole egg + yogurt + fenugreek paste/powder (soaked overnight), wash with mild shampoo        
@@ -148,4 +169,3 @@ See all your daily reflections and progress — [[@daily-reviews|👉 click here
 		  - flaxseed gel + onion juice, rinse with plain water (no shampoo)        
 	7. **Friday – Oiling / Light Nourishment**    
 		  - rosemary oil (warm slightly), massage 10 mins, leave 1–2 hrs or overnight
-

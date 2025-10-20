@@ -19,12 +19,12 @@ tags:
 
 ```dataview
 table dateformat(file.ctime, "yyyy-MM-dd") as "Created", dateformat(file.mtime, "yyyy-MM-dd | hh:mm a") as "Modified"
-from "07 Coding Notes/Tailwind 4.0"
+from "@sandbox/@tailwind"
 where
   (
-    length(split(file.folder, "/")) = length(split("07 Coding Notes/Tailwind 4.0", "/"))
+    length(split(file.folder, "/")) = length(split("@sandbox/@tailwind", "/"))
     or (
-      length(split(file.folder, "/")) = length(split("07 Coding Notes/Tailwind 4.0", "/")) + 1
+      length(split(file.folder, "/")) = length(split("@sandbox/@tailwind", "/")) + 1
       and contains(file.folder, file.name)
     )
   )

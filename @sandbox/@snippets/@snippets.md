@@ -8,10 +8,10 @@ tags:
 ---
 
 ```button
-name Insert snippet
+name Insert new snippet
 type note(new snippet, tab) template
 action 08 Snippet Template
-color blue
+color green
 folder @sandbox/@snippets
 ```
 ^button-snippet

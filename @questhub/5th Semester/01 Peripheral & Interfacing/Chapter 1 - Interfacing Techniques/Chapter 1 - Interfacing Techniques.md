@@ -25,7 +25,7 @@ where
       and contains(file.folder, file.name)
     ) and file.name != "Chapter 1 - Interfacing Techniques"
   )
-sort file.name asc
+sort status asc
 ```
 
 ---

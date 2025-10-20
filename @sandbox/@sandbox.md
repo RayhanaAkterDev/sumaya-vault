@@ -6,17 +6,9 @@ aliases:
 tags:
   - code
 ---
-
-`BUTTON[new_note]` 
-
-```meta-bind-embed
-[[MetaBindEmbeds Spaces Buttons]]
-```
+ `button-note` 
 
 ---
-
-### Folder Notes
-
 ```dataview
 list
 from "@sandbox"
